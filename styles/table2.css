@@ -1,0 +1,20 @@
+body {}
+#wrap {}
+#wrap #pay {
+    width:1100px; margin:50px auto 0;
+    background-color:#f9f9f9;
+}
+#wrap #pay th {padding:15px 0;}
+#wrap #pay td {padding:20px 0;}
+#wrap #pay thead {
+    border:2px solid #000;
+    border-left:0; border-right:0;
+}
+#wrap #pay thead tr {}
+#wrap #pay thead tr:nth-child(1) {border-bottom:1px dotted #aaa;}
+#wrap #pay thead tr th {}
+#wrap #pay thead tr th span {display:block; color:#aaa;}
+#wrap #pay tbody {}
+#wrap #pay tbody tr {border-bottom:1px solid #ccc;}
+#wrap #pay tbody tr th {}
+#wrap #pay tbody tr td {width:200px; text-align: center;}
